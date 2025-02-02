@@ -1,0 +1,37 @@
+# Ignore Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build files
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Ignore config files with sensitive data
+Web.config
+App.config
+*.config
+
+# Ignore compiled DLLs and executables
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Ignore JetBrains Rider / Resharper files
+_ReSharper.Caches/
+.idea/
+
+# Ignore NuGet cache
+.nuget/
